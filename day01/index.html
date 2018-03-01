@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Day 1 | Simple Portfolio Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <!--CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    
+    <!--JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+<body>
+
+    <!--NAVIGATION-->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Portfolio</a>
+            </div>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#where">WHERE</a>
+                    </li>
+                    <li>
+                        <a href="#project">PROJECTS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--HEADER-->
+    <div class="container-fluid bg text-center">
+        <h3 class="margin">Hello World</h3>
+        <img src="https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=5d08104e6d85716a1b38fe635a8602a8"
+            class="  profile-img animated fadeInUp " alt="profile">
+        <h3>I'm a Photographer</h3>
+    </div>
+
+    <!--CONTENT-->
+    <div class="bg-2 text-center container-fluid" id="about">
+        <h3>About me</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis dolorum, labore aperiam natus odit sed esse debitis consequuntur
+            corrupti deleniti, sit excepturi, vero aut molestiae accusamus culpa quis nulla voluptatibus!</p>
+        <a href="#" class="btn btn-default btn-lg">
+        <i class="fas fa-search"></i>
+ Search</a>
+    </div>
+    <div class="bg-3 text-center container-fluid" id="where">
+        <h3>Where to find me</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ex dignissimos similique, ipsum laudantium quo saepe, ipsa
+            qui illum sapiente incidunt cupiditate vel iure totam obcaecati quia iste dolores dolor?</p>
+    
+    </div>
+
+    <!--PROJECTS SECTION-->
+    <div class="container-fluid bg text-center" id="project">
+        <h3>Projects</h3>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-sm-4 col-xs-12 ">
+                <img class="img-responsive hover-img" src="https://images.unsplash.com/photo-1495312040802-a929cd14a6ab?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=05d583fb0db8ba22b24fa9745cfae025"
+                    alt="p1">
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <img class="img-responsive hover-img" src="https://images.unsplash.com/photo-1495312040802-a929cd14a6ab?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=05d583fb0db8ba22b24fa9745cfae025"
+                    alt="p2">
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <img class="img-responsive hover-img" src="https://images.unsplash.com/photo-1495312040802-a929cd14a6ab?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=05d583fb0db8ba22b24fa9745cfae025"
+                    alt="p3">
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER SECTION-->
+    <div id="footer" class="container-fluid text-center bg-4">
+        <p>Simple page made by
+            <a href="https://www.github.com/cobicodes/" target="_blank">Jacobo Martinez</a>
+        </p>
+    </div>
+</body>
+</html>
