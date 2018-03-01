@@ -4,7 +4,7 @@ body, html {
 
 .parallax {
     /* The image used */
-    background-image: url('../img/wallpaper.jpg');
+    background-image: url('day02/img/wallpaper.jpg');
 
     /* Full height */
     height: 70%; 
@@ -42,10 +42,4 @@ body, html {
 
 #myNavbar a:hover {
     color: yellow
-}
-
-@media all and(max-width: 600px){
-	h1{
-        font-size: 10px
-}
 }
