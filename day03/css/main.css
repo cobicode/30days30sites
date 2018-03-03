@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto
+}
+
+p {font-size: 17px;}
+
+#footer a{
+	color:white;
+}
+#footer a:hover{
+	color:white;
+}
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0 !important; 
+    font-size: 12px;
+    letter-spacing: 5px;
+    text-align: center;
+
+}
+
+.navbar .nav > li {
+    padding: 5% 0 5% 0;
+}
+
+.navbar-nav {
+    margin: 0 0 0 100px !important;
+}
+
+.navbar-nav a {
+    color: black !important;
+}
+
+.navbar-nav li a:hover {
+    color: #406e8e !important;
+}
+
+.container-fluid{
+	padding-top:70px;
+	padding-bottom:70px;
+}
+
+.bg{
+	background: #406e8e ;
+	color: white;
+}
+
+.bg-2 {
+      background-color: #161925;
+      color: #ffffff;
+}
+.bg-3 {
+      background-color: white;
+      color: #555555;
+  }
+
+.bg-4 {
+      background-color: #161925;
+      color: #ffffff;
+}
+
+
+.hover-img{
+	transition: all .5s;
+	z-index:1;
+	margin: 20px 0 0 0;
+}
+
+.hover-img:hover{
+	transform: scale(1.1);
+	z-index:2;
+}
+
+.margin-bottom-slider {margin-bottom: 20px;}
+
+.carousel-caption{
+    right: 50% !important;
+    top: 25% !important;
+}
+
+.carousel-caption h2 {
+    font-size: 30px !important;
+}
+
+
+.contenido{
+    background-color: #DFDFDF;
+    padding: 9px;
+      margin: 3px;
+      border: 5px solid white;
+}
+
+
+.contenido img{
+      width: 100%;
+      display: block;
+      margin-bottom: 20px
+}
+
+.contenido p{
+    font-size: 14px;
+    margin-bottom: 40px
+}
+
+.contenido button{
+    padding: 14px !important; 
+    font-size: 14px !important;
+    position: absolute;
+    bottom: 20px
+}
+
+.map{
+    padding: 30px 0 30px 0;
+}
