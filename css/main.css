@@ -1,0 +1,78 @@
+.background{
+    background-color: rgb(46, 46, 46);
+}
+
+/*TAGS*/
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+h1{
+    background-color: springgreen;
+    font-size: 3em !important;
+}
+
+/*BOX*/
+
+.box-radius{
+    border-radius: 50px;
+    width: 40%;
+    margin: 50px auto;
+}
+
+@media screen and (max-width:  992px){
+    .box-radius{
+        width: 100%;
+    }
+}
+
+/*BOX CONTENT*/
+
+.website-box{
+    border: solid 2px springgreen;
+    margin: 25px;
+    padding: 20px 0;
+    border-radius: 10px
+}
+
+.website-box a{
+    transition: color 0.5s ease;
+    color: white;
+    text-transform: uppercase
+}
+
+.website-box a:hover{
+    color: springgreen;
+}
+
+/*FOOTER*/
+.footer{
+    margin-top: 50px
+}
+
+.footer p {
+    color: white
+}
+
+.footer a{
+    transition: color 0.5s ease;
+    color: springgreen;
+    
+}
+
+.footer a:hover{
+    color: rgb(242, 255, 0);
+}
