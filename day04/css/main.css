@@ -1,0 +1,53 @@
+/*Estilos de Nagacion*/
+
+.navbar-nav a{
+    color: black;
+}
+
+.navbar-nav a:hover{
+    color: #459FED;
+}
+
+.navbar-nav{
+    margin-top: 25px !important;
+}
+
+/*Estilos de Imagen*/
+
+.row img{
+    background-position: center !important;
+    background-size: cover !important;
+    margin: 0 !important;
+    width: 100%;
+    height: 100%;
+}
+
+.hover-img{
+	transition: all .5s;
+	z-index:1;
+	margin: 20px 0 0 0;
+}
+
+.hover-img:hover{
+	transform: scale(1.1);
+	z-index:2;
+}
+
+.col-sm-6{
+    padding: 0 !important;
+}
+
+.bg-footer{
+    background-color: rgb(33, 33, 33);
+    padding: 40px;
+}
+
+.bg-footer p{
+   color: beige;
+}
+
+.bg-footer a:hover{
+   color: rgb(33, 33, 33);
+   background: yellow;
+   font-weight: bold
+}
