@@ -10,6 +10,10 @@ http://www.codelegy.com/30days30sites/
 
 # Here you can watch them:
 
+Main Site: https://cobicodes.github.io/30days30sites/
+
+#or
+
 Day 1: https://cobicodes.github.io/30days30sites/day01/
 
 Day 2: https://cobicodes.github.io/30days30sites/day02/
@@ -17,3 +21,5 @@ Day 2: https://cobicodes.github.io/30days30sites/day02/
 Day 3: https://cobicodes.github.io/30days30sites/day03/
 
 Day 4: https://cobicodes.github.io/30days30sites/day04/
+
+Day 4: https://cobicodes.github.io/30days30sites/day05/
