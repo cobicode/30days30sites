@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Day6 | Restaurant Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <!--Jquery-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!--End of Head-->
+    <script src="./js/feather.min.js"></script>
+</head>
+<body>
+    <!--NAVIGATION -->
+    <div class="sticky-top">
+        <nav class="navbar  navbar-light bg-nav navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo.jpg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i data-feather="menu" style="color:white;"></i>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <ul class="navbar-nav ">
+                        <li>
+                            <a class="nav-item nav-link active" href="#"><span class="home-color">HOME</span></a>
+                        </li>
+                        <li></li>
+                            <a class="nav-item nav-link" href="#">ORDER NOW</a>
+                        </li>
+                        <li>
+                            <a class="nav-item nav-link" href="#">WAIT LIST</a>
+                        </li>
+                        <li>
+                            <a class="nav-item nav-link" href="#">OFFERS</a>
+                        </li>
+                        <li>
+                            <a class="nav-item nav-link" href="#">GIFT CARDS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    <!--CAROUSSEL -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="#"><img class="d-block w-100" src="./img/slideOne.jpg" alt="First slide">
+ </a>           </div>
+            <div class="carousel-item">
+                <a href="#"><img class="d-block w-100" src="./img/slideTwo.jpg" alt="Second slide">
+</a>            </div>
+            <div class="carousel-item">
+                <a href="#"><img class="d-block w-100" src="./img/slideThree.jpg" alt="Third slide"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="#"><img class="d-block w-100" src="./img/slideFour.jpg" alt="Four slide">
+ </a>           </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="container">
+        <div class="row row-top">
+            <div class="col-sm content-img">
+                <a href=""><img src="./img/postOne.png" alt="Post one">
+   </a>          </div>
+            <div class="col-sm content-img">
+                <a href=""><img src="./img/postTwo.png" alt="Post two">
+   </a>          </div>
+        </div>
+        <div class="row row-middle ">
+            <div class="col-sm content-img ">
+                <a href=""><img src="./img/postThree.png" alt="Post three"></a> 
+            </div>
+            <div class="col-sm content-img ">
+                <a href=""><img src="./img/postFour.png" alt="Post four">
+ </a>            </div>
+             <div class="col-sm content-img ">
+               <a href=""> <img src="./img/postFive.png" alt="Post five">
+</a>             </div>
+        </div>
+        <div class="row row-bottom">
+            <div class="col-sm content-img">
+               <a href=""> <img src="./img/postSix.png" alt="Post six">
+  </a>           </div>
+            <div class="col-sm content-img">
+                <a href=""><img src="./img/postSeven.png" alt="Post seven"></a> 
+            </div>
+        </div>
+    </div>
+<div class="footer bg-footer text-center">
+    <p>Made it by
+        <a href="github.com/cobicodes">Jacobo Martinez</a> | #30days30sites</p>
+</div>
+    <script>
+        $('.carousel').carousel()
+    </script> 
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
