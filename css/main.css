@@ -48,14 +48,18 @@ h1{
     border-radius: 10px
 }
 
-.website-box a{
+ a{
     transition: color 0.5s ease;
-    color: white;
+    color: white !important;
     text-transform: uppercase
 }
 
-.website-box a:hover{
-    color: springgreen;
+ a:hover{
+    color: springgreen !important;
+}
+
+.github-source p{
+    font-size: 12px;
 }
 
 /*FOOTER*/
@@ -76,3 +80,4 @@ h1{
 .footer a:hover{
     color: rgb(242, 255, 0);
 }
+

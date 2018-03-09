@@ -12,7 +12,7 @@ http://www.codelegy.com/30days30sites/
 
 Main Site: https://cobicodes.github.io/30days30sites/
 
-#or
+# Or
 
 Day 1: https://cobicodes.github.io/30days30sites/day01/
 
@@ -22,4 +22,6 @@ Day 3: https://cobicodes.github.io/30days30sites/day03/
 
 Day 4: https://cobicodes.github.io/30days30sites/day04/
 
-Day 4: https://cobicodes.github.io/30days30sites/day05/
+Day 5: https://cobicodes.github.io/30days30sites/day05/
+
+Day 6: https://cobicodes.github.io/30days30sites/day06/
