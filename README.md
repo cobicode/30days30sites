@@ -27,3 +27,5 @@ Day 5: https://cobicode.github.io/30days30sites/day05/
 Day 6: https://cobicode.github.io/30days30sites/day06/
 
 Day 7: https://cobicode.github.io/30days30sites/day07/
+
+Day 7: https://cobicode.github.io/30days30sites/day08/

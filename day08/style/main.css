@@ -1,0 +1,37 @@
+body{
+    position: relative;
+}
+
+.jumbotron h1{
+    margin-top: 2rem !important;
+    color: white;
+    text-shadow: 0px 10px 10px black
+}
+
+.jumbotron p{
+    color: white;
+     text-shadow: 0px 10px 20px black
+}
+
+.jumbotron{
+    text-align: center;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.fas{
+    margin-right: 10px;
+}
+
+#footer{
+    padding: 100px;
+    background:black;
+    color: white;
+}
+
+#about{
+    margin-bottom: 50px !important;
+    margin-top: 50px !important;
+}
