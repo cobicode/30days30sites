@@ -10,21 +10,21 @@
 }
 
 .fab {
-    color: white;
-    font-size: 2rem;
-    margin-left:10px;
+    color: white !important;
+    font-size: 2rem !important;
+    margin-left:10px !important;
 }
 
 .far {
-    color: white;
-    font-size: 2rem;
-    margin-left:10px;
+    color: white !important;
+    font-size: 2rem !important;
+    margin-left:10px !important;
 }
 
 .fas {
-    color: white;
-    font-size: 2rem;
-    margin-left:10px;
+    color: white !important;
+    font-size: 2rem !important;
+    margin-left:10px !important;
 }
 
 
@@ -102,21 +102,21 @@ footer {
 }
 
 footer .fab {
-    color: #eee;
-    font-size: 2rem;
-    margin-left: 40px;
+    color: #eee !important;
+    font-size: 2rem !important;
+    margin-left: 40px !important;
 }
 
 footer .far {
-    color: #eee;
-    font-size: 2rem;
-    margin-left: 40px;
+    color: #eee !important;
+    font-size: 2rem !important;
+    margin-left: 40px !important;
 }
 
 footer .fas {
-    color: #eee;
-    font-size: 2rem;
-    margin-left: 40px;
+    color: #eee !important;
+    font-size: 2rem !important;
+    margin-left: 40px !important;
 }
 
 .logo-footer {
