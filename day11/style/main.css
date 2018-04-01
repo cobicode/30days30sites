@@ -1,0 +1,136 @@
+
+.parallax {
+    min-height: 560px;
+    background: transparent;
+    height: 100%;
+}
+
+.nav-bg {
+    background-color: rgba(0, 0, 0, 0.474)
+}
+
+.fab {
+    color: white;
+    font-size: 2rem;
+    margin-left:10px;
+}
+
+.far {
+    color: white;
+    font-size: 2rem;
+    margin-left:10px;
+}
+
+.fas {
+    color: white;
+    font-size: 2rem;
+    margin-left:10px;
+}
+
+
+.bleed{
+    position: absolute;
+    bottom: 0;
+}
+
+.bg-content {
+    background-color:  #ECB18F
+}
+
+.padding-top {
+    padding-top: 100px;
+}
+
+.bg-content h1 {
+    color: white;
+}
+
+.bg-content h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.button {
+    display: block;
+    background-color: #9ed2cd;
+    padding: 1rem;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: all ease-in 0.2s;
+    
+}
+
+.button:hover {
+    text-decoration: none;
+    background-color: #37c1eb;
+    color: white
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 2rem;
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+.btn-astronomer {
+    background-color: #9ed2cd;
+    display: block;
+    color: white !important;
+}
+
+
+#form-width {
+    max-width: 50%;
+}
+
+.mail-list {
+    padding-bottom: 100px;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 50px 200px 50px 200px;
+}
+
+footer .fab {
+    color: #eee;
+    font-size: 2rem;
+    margin-left: 40px;
+}
+
+footer .far {
+    color: #eee;
+    font-size: 2rem;
+    margin-left: 40px;
+}
+
+footer .fas {
+    color: #eee;
+    font-size: 2rem;
+    margin-left: 40px;
+}
+
+.logo-footer {
+    margin-top: 70px
+}
+
+footer a {
+    color: #eee;
+}
+
+footer a:hover {
+    color: #eee;
+}
+
+footer p {
+    color: #eee;
+}
