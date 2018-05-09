@@ -3,7 +3,7 @@ header, #info-one {
 }
 
 footer {
-  background: url(/img/wallpaper.jpg) no-repeat;
+  background: url(../img/wallpaper.jpg) no-repeat;
   background-size: cover;
 }
 
